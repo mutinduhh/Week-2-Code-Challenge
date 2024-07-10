@@ -1,0 +1,82 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.purchased {
+  text-decoration: line-through;
+  background-color: #ccc;
+}
+
+/* Image Styles */
+
+img {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* Button Styles */
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Input Styles */
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Container Styles */
+
+#list-container {
+  margin-top: 20px;
+}
